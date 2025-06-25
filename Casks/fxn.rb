@@ -2,7 +2,7 @@
 cask "fxn" do
   desc "Function Node is the core software for providers."
   homepage "https://github.com/fxnlabs/function-node"
-  version "0.0.25"
+  version "0.0.26"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "fxn" do
 
   on_macos do
     on_intel do
-      url "https://github.com/fxnlabs/function-node/releases/download/0.0.25/function-node_0.0.25_darwin_amd64.tar.gz"
-      sha256 "8908627590c9e807c9f4c46e9c2f966422b4ba6d6ccd40046566cd43748d8e46"
+      url "https://github.com/fxnlabs/function-node/releases/download/0.0.26/function-node_0.0.26_darwin_amd64.tar.gz"
+      sha256 "3f95b9537ccb777fa93b33f4bd31c64c3b92f706dffa7ca273fc6b09d7908a7b"
     end
     on_arm do
-      url "https://github.com/fxnlabs/function-node/releases/download/0.0.25/function-node_0.0.25_darwin_arm64.tar.gz"
-      sha256 "079b2b667ac8bfae876c4762dc217991951d7ee4ae92924672b2263e0012c647"
+      url "https://github.com/fxnlabs/function-node/releases/download/0.0.26/function-node_0.0.26_darwin_arm64.tar.gz"
+      sha256 "dc24d947769062f2ea516cdbcd3928491608511a2e6964143d05bacec2423a9a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/fxnlabs/function-node/releases/download/0.0.25/function-node_0.0.25_linux_amd64.tar.gz"
-      sha256 "51fa1a869d154371749db3ea6205191603a3d972311d08230bb543aca7d57f01"
+      url "https://github.com/fxnlabs/function-node/releases/download/0.0.26/function-node_0.0.26_linux_amd64.tar.gz"
+      sha256 "f0a458f4728de1cc7c49505e20e0d55f57ba03de42645147c98ab04ec8f57baf"
     end
     on_arm do
-      url "https://github.com/fxnlabs/function-node/releases/download/0.0.25/function-node_0.0.25_linux_arm64.tar.gz"
-      sha256 "23a75137cc27fd8fb9668e1c6eb8aab0de611fe297e521eced7743995d5b3219"
+      url "https://github.com/fxnlabs/function-node/releases/download/0.0.26/function-node_0.0.26_linux_arm64.tar.gz"
+      sha256 "000ad0753d50a66f06944ec4594845150e5ed1e58d1564fa01e249aba23187df"
     end
   end
 
